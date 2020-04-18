@@ -31,8 +31,8 @@ $result=$conn->query($sql1);
             'host' => 'ssl://smtp.gmail.com',                               //name of host
             'port' => '465',                                                // port number of smtp server
             'auth' => true,                                                 //SMTP Authentication true. because we need to authenticate with gmail username and password
-            'username' => 'apsitmlproject@gmail.com',                       //mail of sender(Only gmail)
-            'password' => 'apsitmlproject@3128'                                  //password of account
+            'username' => '#',                       //mail of sender(Only gmail)
+            'password' => '#'                                  //password of account
             ));
 
             $mail = $smtp->send($email, $headers, $body);                              //   object-> send to send the mail,prameters are (recipient,email header,email body)
